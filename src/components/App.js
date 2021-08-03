@@ -4,9 +4,12 @@ import './App.css';
 import { createBrowserHistory } from 'history'
 import Header from './header/Header';
 import Comment from './comment/Comment'
+import About from './about/About';
+
+
+
 
 const newHistory = createBrowserHistory();
-
 
 function App() {
   return (
@@ -20,6 +23,8 @@ function App() {
 
             <Route path='/' exact>
               <Header />
+              <Comment />
+              <About />
               <Comment />
             </Route>
           </Switch>

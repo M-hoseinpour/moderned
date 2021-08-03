@@ -8,6 +8,8 @@
     background-size: cover !important;
     filter:opacity(100%);
     transition-duration: 2s !important;
+    -moz-transition-duration: 2s !important;
+    -webkit-transition-duration: 2s !important;
     position: relative;   
 }
 
