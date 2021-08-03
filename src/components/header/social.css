@@ -1,0 +1,19 @@
+.social li {
+    list-style-type: none;
+    margin-top: 25px;
+    transition: 1s;
+}
+.social li:hover {
+    list-style-type: none;
+    color: white;
+    cursor: pointer;
+}
+
+.social {
+    right: 25px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: rgba(220, 220, 220, 0.89);
+}

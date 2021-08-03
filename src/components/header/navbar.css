@@ -1,0 +1,177 @@
+.right-nav {
+    margin-left: 25px;
+    color: white;
+    font-size: 18px;
+}
+
+.right-nav:hover {
+    color: black;
+}
+
+.right-nav {
+    transition: 1s;
+    cursor: pointer;
+    font-family: 'Courgette', cursive;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.fade-in {
+    transition: opacity 2s ease;
+    font-size: 40px;
+    margin: 0;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 2s ease;
+    font-size: 40px;
+    margin: 0;
+}
+
+.cafe-inner {
+    opacity: 1;
+    transition: 1s;
+}
+
+.navbar {
+    display: flex;
+}
+
+.left-nav {
+    margin-left: auto;
+    transition: 0.5s;
+}
+.icons li:first-child{
+    animation: fadeIn linear 1s;
+    position: relative;
+    
+}
+
+.icons li:nth-child(2) {
+    position: relative;
+    animation: fadeIn linear 1.2s;
+    animation-delay: 0.1s ;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.icons li:nth-child(3) {
+    position: relative;
+    animation: fadeIn linear 1.4s;
+    animation-delay: 0.2s ;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.icons li:nth-child(4) {
+    position: relative;
+    animation: fadeIn linear 1.6s;
+    animation-delay: 0.3s ;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.icons li:nth-child(5) {
+    position: relative;
+    animation: fadeIn linear 1.8s;
+    animation-delay: 0.4s ;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.icons li:nth-child(6) {
+    position: relative;
+    animation: fadeIn linear 2s;
+    animation-delay: 0.5s ;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.icons li:nth-child(7) {
+    position: relative;
+    animation: fadeIn linear 2.2s;
+    animation-delay: 0.6s ;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.icons li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 38px;
+    color: white;
+    transition: 0.5s;
+}
+.icons {
+    display: flex;
+    
+}
+
+
+.icons li:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+@keyframes fadeIn {
+    0% {top:-100px;opacity: 0;}
+    80% {top:15px;}
+    100% {top:0px;opacity: 1;}
+
+  }
+  .search {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato' !important;
+  }
+
+  .search-box{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+  }
+
+
+  .input-search{
+    width: 0;
+    border-style: none;
+    outline: none;
+    transition: all .5s ease-in-out;
+    background-color: transparent;
+    padding-right: 25px;
+    color:#fff;
+    padding-top: 8px;
+  }
+  .input-search::placeholder{
+    color:rgba(255,255,255,.5);
+    font-size: 14px;
+    font-weight: 100;
+  }
+  .btn-search{
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    color:#ffffff ;
+    background-color:transparent;
+    pointer-events: painted; 
+    transition: 0.5s;
+  }
+
+  .btn-search:hover{
+      color: black;
+  }
+  .btn-search:focus ~ .input-search{
+    width: 120px;
+    border-radius: 0px;
+    background-color: transparent;
+    transition: all 700ms cubic-bezier(0, 0.110, 0.35, 2);}
+  
+  .input-search:focus{
+    width: 120px;
+    border-radius: 0px;
+    background-color: transparent;
+    transition: all 700ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+  
