@@ -21,7 +21,7 @@ function App() {
 
             <Route path='/' exact>
               <Header />
-              <Comment />
+              {/* <Comment /> */}
             </Route>
           </Switch>
         </div>
