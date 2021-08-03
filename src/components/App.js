@@ -1,7 +1,6 @@
 import React from 'react';
 import { Router, Switch, Route } from 'react-router';
 import './App.css';
-import Navbar from './header/Navbar';
 import { createBrowserHistory } from 'history'
 import Header from './header/Header';
 import Comment from './comment/Comment'
@@ -21,7 +20,7 @@ function App() {
 
             <Route path='/' exact>
               <Header />
-              {/* <Comment /> */}
+              <Comment />
             </Route>
           </Switch>
         </div>

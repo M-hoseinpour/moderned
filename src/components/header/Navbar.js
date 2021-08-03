@@ -19,9 +19,9 @@ function Navbar() {
                     <li>Home</li>
                     <li>User</li>
                     <li className='search'>
-                        <div class="search-box">
-                            <button class="btn-search">Search</button>
-                            <input type="text" class="input-search" placeholder="Type to Search..."/>
+                        <div className="search-box">
+                            <button className="btn-search">Search</button>
+                            <input type="text" className="input-search" placeholder="Type to Search..."/>
                         </div>
                         
                     </li>
