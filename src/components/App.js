@@ -3,6 +3,8 @@ import { Router, Switch, Route } from 'react-router';
 import './App.css';
 import Navbar from './header/Navbar';
 import { createBrowserHistory } from 'history'
+import Header from './header/Header';
+import Comment from './comment/Comment'
 
 const newHistory = createBrowserHistory();
 
@@ -18,7 +20,8 @@ function App() {
             </Route>
 
             <Route path='/' exact>
-              <Navbar/>
+              <Header />
+              <Comment />
             </Route>
           </Switch>
         </div>

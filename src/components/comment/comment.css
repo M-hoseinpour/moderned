@@ -1,0 +1,54 @@
+.comment-section {
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.comment {
+    border-radius:5px ;
+    padding: 35px;
+    margin-bottom: 50px;
+    margin: 35px;
+    background-color: #4d6066 ;
+    display: flex;
+    color: rgb(241, 237, 237);
+}
+
+.comment-description p {
+    margin-right: 28px;
+}
+
+
+.comment-name img {
+    width: 500px;
+    height: 350px;
+    border-radius: 6px;
+    transform: rotate(-2.5deg);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.comment-name2 img{
+    transform: rotate(2.5deg);
+}
+
+.comment-name img:hover {
+    transform: rotate(0) scaleY(1.02);
+}
+
+.comment-name {
+    background-color: #76858acb;
+    border-radius: 5px;
+}
+
+.comment-description {
+    margin-left: 25px;
+    
+}
+
+
+.comment button {
+   padding: 8px;
+   font-weight: 600;
+   font-size: 12px;
+   cursor: pointer;
+}
