@@ -1,0 +1,52 @@
+.introduction {
+    position: relative;
+    background-color: rgba(0, 0, 0);
+    padding-bottom: 40px;
+}
+
+.custom-shape-divider-top-1627984352 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1627984352 svg {
+    position: relative;
+    display: block;
+    width: calc(147% + 1.3px);
+    height: 84px;
+}
+
+.custom-shape-divider-top-1627984352 .shape-fill {
+    fill: #778489;
+}
+
+
+.custom-shape-divider-top-1627984352 {
+    background-color: rgba(0, 0, 0);
+}
+
+
+.Who {
+    width: 50%;
+    height: 380px;
+    color: white;
+    padding-top: 80px;
+    padding-left: 40px;
+}
+
+.intro-img img{
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    border-radius: 5px;
+    margin-top: 84px;
+}
+
+.intro {
+    display: flex;
+    background-color: rgba(0, 0, 0);
+}

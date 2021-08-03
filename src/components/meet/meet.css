@@ -1,0 +1,71 @@
+
+
+.meet img:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    z-index: 1;
+}
+.meet img:nth-child(2) {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    z-index: 2;
+}
+.meet img:nth-child(3) {
+    position: absolute;
+    top: 200px;
+    left: 360px;
+    z-index: 3;
+}
+
+
+.meet img {
+    width: 400px;
+    height: 300px;
+    border-radius: 5px; 
+    transition: 1s; 
+}
+
+.meet img:nth-child(1):hover {
+    transform: rotate(2.5deg);
+}
+
+.meet img:nth-child(3):hover {
+    transform: rotate(2.5deg);
+}
+
+.meet img:nth-child(2):hover {
+    transform: rotate(-2.5deg);
+}
+
+.meet {
+    padding:45px ;
+    display: flex;
+}
+
+.meet-imgs {
+    position: relative;
+    height: 540px;
+    width: 65%;
+}
+
+
+.meet-description {
+    width: 35%;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: rgb(66, 65, 65);
+}
+
+.meet-description button {
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: rgb(66, 65, 65);
+    color: white;
+}
+
+.meet-description button i {
+    margin-left: 10px;
+    font-weight: 100;
+}
