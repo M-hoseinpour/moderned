@@ -16,11 +16,11 @@ function Navbar() {
                     <li>Projects</li>
                     <li>News</li>
                     <li>Contact us</li>
-                    <li>Home</li>
-                    <li>User</li>
+                    <li><i class="fas fa-home"></i></li>
+                    <li><i class="fas fa-user"></i></li>
                     <li className='search'>
                         <div className="search-box">
-                            <button className="btn-search">Search</button>
+                            <button className="btn-search"><i class="fas fa-search"></i></button>
                             <input type="text" className="input-search" placeholder="Type to Search..."/>
                         </div>
                         

@@ -5,10 +5,10 @@ function Social() {
     return (
         <div className='social'>
             <ul>
-                <li>social</li>
-                <li>social</li>
-                <li>social</li>
-                <li>social</li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-facebook"></i></li>
+                <li><i class="fab fa-linkedin"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
             </ul>
         </div>
     )
