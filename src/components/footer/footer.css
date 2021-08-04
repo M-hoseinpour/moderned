@@ -1,0 +1,75 @@
+.dk-footer {
+    background-color: black;
+    padding-top: 25px;
+}
+
+/* .footer-social-link {
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+
+.footer-social-link h3 {
+    color: white;
+}
+
+.footer-social-link li {
+    display: inline-block;
+} */
+
+.widget a {
+    text-decoration: none !important;
+}
+.widget {
+    margin-bottom: 50px;
+    color: #909090;
+}
+
+.widget p {
+    font-size: 15px;
+}
+
+.clearfix {
+    list-style-type: none;
+}
+
+.footer-title {
+    margin-bottom: 40px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+    font-size: 16px;
+    position: relative;
+}
+
+.footer-title:after {
+    width: 50px;
+    background: #fff;
+    opacity: 0.2;
+    height: 1px;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.gem-contacts-item {
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.gem-contacts-item i {
+    padding-right: 10px;
+}
+
+footer .widget ul {
+    list-style: none;
+    margin-top: 5px;
+}
+
+.row>* {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+

@@ -18,7 +18,17 @@
   background: #555; 
 }
 
+*, ::after, ::before {
+  box-sizing: initial !important;
+}
+
+.card {
+  border: none !important;
+}
+
 
 .App {
-background-color: #778489;
+  background-color: #778489;
+  margin: 0;
+  padding: 0;
 }

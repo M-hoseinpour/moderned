@@ -8,6 +8,8 @@ import About from './about/About';
 import Introduction from './Introduction/Introduction';
 import News from './news/News';
 import Meet from './meet/Meet';
+import Carousel_custom from './carousel/Carousel';
+import Footer from './footer/Footer';
 
 
 
@@ -30,7 +32,9 @@ function App() {
               <About />
               <Meet />
               <Introduction />
-              <News /> 
+              <News />
+              <Carousel_custom />
+              <Footer />
             </Route>
           </Switch>
         </div>

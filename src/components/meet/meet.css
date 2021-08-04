@@ -25,6 +25,7 @@
     height: 300px;
     border-radius: 5px; 
     transition: 1s; 
+    box-shadow: 0rem 0 1.4rem #000;
 }
 
 .meet img:nth-child(1):hover {

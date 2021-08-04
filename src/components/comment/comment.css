@@ -11,6 +11,7 @@
     background-color: #4d6066 ;
     display: flex;
     color: rgb(241, 237, 237);
+    box-shadow: 0rem 0 1.4rem #000;
 }
 
 .comment-description p {

@@ -1,0 +1,49 @@
+ .carousel-section {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    padding-top: 50px;
+   
+    display: flex;
+  } 
+
+  .carousel-section img {
+    height: 24vw;
+    width: 25vw;
+  }
+
+  .carousel {
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+
+  
+  .card {
+    display: flex;
+    height: 24vw;
+    width: 25vw;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000; 
+  /*   margin-left: -50px; */
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+  }
+ 
+  .card:not(:first-child) {
+      margin-left: -50px;
+  }
+
+  .card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+  }
+  
+  .card:hover ~ .card {
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+  }
