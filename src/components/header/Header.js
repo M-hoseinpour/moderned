@@ -61,7 +61,7 @@ function Header() {
                     <div className='flips'>
                         <ul className="flip4">
                             <li>Emphasis</li>
-                            <li>Balance and alignment</li>
+                            <li>Balance</li>
                             <li>Contrast</li>
                             <li>Proportion</li>
                         </ul>

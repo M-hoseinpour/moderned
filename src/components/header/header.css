@@ -184,3 +184,139 @@
   0% {opacity: 0;}
   100% {opacity: 1;}
 }
+
+@media only screen and (min-width: 768px) and (max-width: 997px) {
+    .title-inner{
+      font-size: 28px;
+    }
+    .icons li {
+      margin-right: 21px;
+      font-size: 15px;
+    }
+    .flips {
+      padding-top: 5px;
+    }
+    .wordCarousel {
+      font-size: 17px;
+    }
+    .up-title {
+      font-size: 12px;
+    }
+    .botton-title {
+      font-size: 15px;
+    }
+    .title-bar {
+      transform: translate(15%, 0);
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .title-inner{
+    font-size: 20px;
+  }
+  .title-bar .description {
+    font-size: 12px;
+    width: 290px;
+  }
+  .header {
+    background-size: 100% 100% !important;
+  }
+  .icons li:nth-child(1) {display: none;}
+  .icons li:nth-child(2) {display: none;}
+  .icons li:nth-child(3) {display: none;}
+  .icons li:nth-child(4) {display: none;}
+  .subtitle {
+    right: 0;
+  }
+  .sub-section {
+    margin-right: 10px;
+  }
+
+  .icons li {
+    margin-right: 30px !important;
+    font-size: 15px;
+  }
+  .flips {
+    padding-top: 5px;
+  }
+  .wordCarousel {
+    font-size: 11px;
+  }
+  .up-title {
+    font-size: 10px;
+  }
+  .botton-title {
+    font-size: 12px;
+  }
+  .title-bar {
+    transform: translate(15%, 0);
+  }
+  .right-nav h3 {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .title-inner{
+    font-size: 16px;
+  }
+  .title-bar .description {
+    font-size: 12px;
+    width: 200px;
+  }
+  .header {
+    background-size: 100% 100% !important;
+    height: 85vh;
+  }
+  .icons li:nth-child(1) {display: none;}
+  .icons li:nth-child(2) {display: none;}
+  .icons li:nth-child(3) {display: none;}
+  .icons li:nth-child(4) {display: none;}
+  .subtitle {
+    right: 0;
+  }
+  .sub-section {
+    margin-right: 10px;
+  }
+  .fa-search {
+    font-size: 13px;
+  }
+
+  .icons li {
+    margin-right: 20px !important;
+    font-size: 13px;
+  }
+  .icons li:nth-child(6) {
+    margin-right: 4px !important;
+  }
+  .btn-search {
+    padding: 0;
+  }
+  .flips {
+    padding-top: 5px;
+  }
+  .wordCarousel {
+    font-size: 10px;
+  }
+  .up-title {
+    font-size: 9px;
+  }
+  .social li {
+    margin-top: 15px;
+  }
+  .botton-title {
+    font-size: 10px;
+  }
+  .title-bar {
+    transform: translate(15%, 0);
+  }
+  .right-nav h3 {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .btn-search input {
+    padding-top: 3px;
+  }
+  .btn-search:focus ~ .input-search {
+    width: 100px;
+  }
+}

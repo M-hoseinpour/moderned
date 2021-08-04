@@ -34,7 +34,7 @@ function Comment() {
             </div>
             
             <div className='comments'>
-                    <div className='comment ' data-aos="fade-up">
+                    <div className='comment comment-2' data-aos="fade-up">
                         
                         <div className='comment-description'>
                             <h1>What Is Manufacturing Engineering?</h1>

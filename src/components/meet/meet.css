@@ -70,3 +70,122 @@
     margin-left: 10px;
     font-weight: 100;
 }
+
+@media only screen and (min-width: 998px) and (max-width: 1300px) {
+    .meet {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .meet img:nth-child(1) {
+        left: 120px;
+    }
+    .meet-description {
+        width: 60vw;
+    }
+    .meet-imgs {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 997px){
+    .meet {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: block;
+    }
+    .meet img {
+        width: 45vw;
+        height: 35vw;
+    }
+    .meet img:nth-child(1) {
+        left: 120px;
+    }
+    .meet img:nth-child(3) {
+        left: 300px;
+    }
+    .meet-description {
+        width: 60vw;
+    }
+    .meet-imgs {
+        width: 70%;
+    }
+}
+
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .meet {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: block;
+        padding-top: 0;
+    }
+    .meet img {
+        width: 45vw;
+        height: 35vw;
+    }
+    .meet img:nth-child(1) {
+        left: 23vw;
+        top: 30px;
+    }
+    .meet img:nth-child(3) {
+        left: 35vw;
+        top: 180px;
+    }
+    .meet-description {
+        width: 60vw;
+    }
+    .meet-imgs {
+        width: 70%;
+        height: 80vw;
+    }
+    .meet p {
+        font-size: 13px;
+    }
+    .meet-description button {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .meet {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: block;
+        padding-top: 0;
+    }
+    .meet img {
+        width: 45vw;
+        height: 35vw;
+    }
+    .meet img:nth-child(1) {
+        left: 23vw;
+        top: 0;
+    }
+    .meet img:nth-child(3) {
+        left: 35vw;
+        top: 80px;
+    }
+    .meet img:nth-child(2) {
+        top: 50px;
+    }
+    .meet-description {
+        width: 60vw;
+        margin-top: 0;
+    }
+    .meet-imgs {
+        width: 70%;
+        height: 70vw;
+    }
+    .meet p {
+        font-size: 13px;
+    }
+    .meet h1 {
+        font-size: 20px;
+    }
+    .meet-description button {
+        font-size: 12px;
+    }
+}

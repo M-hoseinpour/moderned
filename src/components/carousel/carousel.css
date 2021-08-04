@@ -1,6 +1,6 @@
  .carousel-section {
     position: relative;
-    height: 500px;
+    height: 400px;
     width: 100%;
     padding-top: 50px;
    
@@ -46,4 +46,10 @@
     position: relative;
     left: 50px;
     transition: 0.4s ease-out;
+  }
+
+  @media only screen and (max-width: 425px){
+    .carousel-section {
+      display: none;
+    }
   }

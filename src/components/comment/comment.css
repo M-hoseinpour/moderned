@@ -53,3 +53,99 @@
    font-size: 12px;
    cursor: pointer;
 }
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .comment-name img {
+        width: 35vw;
+        height: 35vw;
+    }
+    .comment-name {
+        width: 35vw;
+        height: 35vw;
+    }
+    .comment-description h1 {
+        font-size: 20px;
+    }
+    .comment-description p {
+        font-size: 11px;
+    }
+    .comment button {
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .comment-name img {
+        width: 65vw;
+        height: 35vw;
+        transform: initial;
+    }
+    .comment-name {
+        width: auto;
+        text-align: center;
+        height: auto;
+        background-color: inherit;
+    }
+    .comment-description h1 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .comment-description p {
+        font-size: 10px;
+        text-overflow: ellipsis;
+    }
+    .comment{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .comment-2{
+        flex-direction: column-reverse;
+    }
+    .comment button {
+        font-size: 10px;
+    }
+    .comment-description {
+        margin-left: 25px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .comment-name img {
+        width: 65vw;
+        height: 35vw;
+        transform: initial;
+    }
+    .comment-name {
+        width: auto;
+        text-align: center;
+        height: auto;
+        background-color: inherit;
+    }
+    .comment-description h1 {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .comment-description p {
+        font-size: 9px;
+        text-overflow: ellipsis;
+    }
+    .comment{
+        flex-direction: column;
+        padding: 15px;
+    }
+    .comment-2{
+        flex-direction: column-reverse;
+    }
+    .comment button {
+        font-size: 10px;
+    }
+    .comment-description {
+        margin-left: 25px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
