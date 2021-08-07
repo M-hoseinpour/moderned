@@ -265,7 +265,7 @@
   }
   .header {
     background-size: 120% 100% !important;
-    height: 100vh;
+    height: 95vh;
   }
   .icons li:nth-child(1) {display: none;}
   .icons li:nth-child(2) {display: none;}
