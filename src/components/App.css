@@ -26,6 +26,9 @@
   border: none !important;
 }
 
+* {
+  scroll-behavior: smooth;
+}
 
 .App {
   background-color: #778489;
@@ -37,8 +40,10 @@
 a {
   color: white !important;
   transition: 0.5s;
+  text-decoration: none !important;
 }
 
 a:hover {
-  color: black !important;
+  color: rgba(48, 46, 46, 0.699) !important;
+  text-decoration: none;
 }

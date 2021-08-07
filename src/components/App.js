@@ -10,6 +10,7 @@ import News from './news/News';
 import Meet from './meet/Meet';
 import Carousel_custom from './carousel/Carousel';
 import Footer from './footer/Footer';
+import Login from './login/Login';
 
 
 
@@ -23,9 +24,9 @@ function App() {
           <Switch>
 
             <Route path='/login'>
-              <h1>you came to login congrats!!!</h1>
+              <Login />
             </Route>
-
+            
             <Route path='/' exact>
               <Header />
               <Comment />

@@ -17,8 +17,8 @@ function Navbar() {
                     <li>Projects</li>
                     <li>News</li>
                     <li>Contact us</li>
-                    <li><Link to='/login'><i className="fas fa-home"></i></Link></li>
-                    <li><i className="fas fa-user"></i></li>
+                    <li><i className="fas fa-home"></i></li>
+                    <li><Link to='/login'><i className="fas fa-user"></i></Link></li>
                     <li className='search'>
                         <div className="search-box">
                             <button className="btn-search"><i className="fas fa-search"></i></button>
