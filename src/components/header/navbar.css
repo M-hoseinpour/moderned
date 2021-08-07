@@ -114,7 +114,6 @@
     0% {top:-100px;opacity: 0;}
     80% {top:15px;}
     100% {top:0px;opacity: 1;}
-
   }
   .search {
     margin: 0px;

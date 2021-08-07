@@ -12,7 +12,7 @@ function Meet() {
             <div data-aos="zoom-in-left" data-aos-duration="2000" className='meet-description'>
                 <h1>Meet our designers</h1>
                 <p>We constantly challenge ourselves to push boundaries and create innovative products. We do this in cooperation with top designers. While all of our designers have a unique style, they are united by a shared passion for design, an eye for detail, and high standards of quality and craftsmanship.</p>
-                <button>meet our designers<i class="fas fa-arrow-right"></i></button>
+                <button>meet our designers<i className="fas fa-arrow-right"></i></button>
             </div>
         </div>
     )

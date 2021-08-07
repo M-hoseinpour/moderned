@@ -13,10 +13,10 @@ function Navbar() {
             </div>
             <div className='left-nav'>
                 <ul className='icons'>
-                    <li>About us</li>
-                    <li>Projects</li>
-                    <li>News</li>
-                    <li>Contact us</li>
+                    <li><Link to='/login'>About us</Link></li>
+                    <li><Link to='/login'>Projects</Link></li>
+                    <li><Link to='/login'>News</Link></li>
+                    <li><Link to='/login'>Contact us</Link></li>
                     <li><i className="fas fa-home"></i></li>
                     <li><Link to='/login'><i className="fas fa-user"></i></Link></li>
                     <li className='search'>

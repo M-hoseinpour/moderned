@@ -17,3 +17,39 @@
     transform: translateY(-50%);
     color: rgba(220, 220, 220, 0.89);
 }
+
+.social li:nth-child(1) {
+    position: relative;
+    animation: Fadeinside linear 1.2s;
+    animation-delay: 0.1s ;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.social li:nth-child(2) {
+    position: relative;
+    animation: Fadeinside linear 1.4s;
+    animation-delay: 0.1s ;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.social li:nth-child(3) {
+    position: relative;
+    animation: Fadeinside linear 1.6s;
+    animation-delay: 0.2s ;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.social li:nth-child(4) {
+    position: relative;
+    animation: Fadeinside linear 1.8s;
+    animation-delay: 0.3s ;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+
+@keyframes Fadeinside {
+    0% {right:-100px;opacity: 0;}
+    80% {right:15px;}
+    100% {right:0px;opacity: 1;}
+  }

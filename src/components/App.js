@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import './App.css';
-import { createBrowserHistory } from 'history'
 import Header from './header/Header';
 import Comment from './comment/Comment'
 import About from './about/About';
@@ -15,7 +14,6 @@ import { IMAGES } from "./Images"
 
 
 
-const newHistory = createBrowserHistory();
 
 function App() {
   
@@ -44,7 +42,7 @@ function App() {
   
   
   return (
-        <Router history={newHistory}>
+        <Router>
         <div className="App">
           <Switch>
 
@@ -66,7 +64,7 @@ function App() {
               </div>
               ) : (
                 <div className='loading'>
-                  <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+                  <div className="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
                 </div>
                 )}
             </Route>

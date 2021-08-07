@@ -15,7 +15,7 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: rgb(133, 133, 133); 
 }
 
 *, ::after, ::before {

@@ -14,4 +14,9 @@ export const IMAGES = [
       url:
         "https://www.kazakov.de/wp-content/uploads/2019/01/heydar-aliyev-center-07.jpg"
     },
+    {
+      id: 3,
+      url:
+        "https://images.adsttc.com/media/images/5a19/68e2/b22e/38e1/fa00/0046/slideshow/1-rendering.jpg?1511614685"
+    },
   ]
