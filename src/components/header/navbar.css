@@ -140,7 +140,7 @@
     background-color: transparent;
     padding-right: 25px;
     color:#fff;
-    padding-top: 8px;
+    padding-top: 0;
   }
   .input-search::placeholder{
     color:rgba(255,255,255,.5);
@@ -177,6 +177,6 @@
   
 
   .fa-search {
-    padding-top: 4px;
+    padding-top: 3px;
     font-size: 15px
   }

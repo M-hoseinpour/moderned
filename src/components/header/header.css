@@ -264,8 +264,8 @@
     width: 200px;
   }
   .header {
-    background-size: 100% 100% !important;
-    height: 85vh;
+    background-size: 120% 100% !important;
+    height: 100vh;
   }
   .icons li:nth-child(1) {display: none;}
   .icons li:nth-child(2) {display: none;}

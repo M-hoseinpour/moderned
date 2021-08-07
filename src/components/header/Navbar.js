@@ -1,5 +1,6 @@
 import React from 'react'
 import './navbar.css'
+import { Link } from "react-router-dom";
 
 
 function Navbar() {
@@ -16,7 +17,7 @@ function Navbar() {
                     <li>Projects</li>
                     <li>News</li>
                     <li>Contact us</li>
-                    <li><i className="fas fa-home"></i></li>
+                    <li><Link to='/login'><i className="fas fa-home"></i></Link></li>
                     <li><i className="fas fa-user"></i></li>
                     <li className='search'>
                         <div className="search-box">
