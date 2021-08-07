@@ -29,7 +29,7 @@ function App() {
             <Route path='/' exact>
               <Header />
               <Comment />
-              {/* <About /> */}
+              <About />
               <Meet />
               <Introduction />
               <News />

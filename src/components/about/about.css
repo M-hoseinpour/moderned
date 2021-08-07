@@ -50,3 +50,98 @@
     
 } */
 
+@media only screen and (min-width: 997px) and (max-width: 1300px) {
+    .about-item {
+        margin-right: 20px;
+        font-size: 4vw;
+    }
+    .about-title {
+        left: 180px;
+    }
+    .about-description {
+        left: 180px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 997px) {
+    .about-item {
+        margin-right: 20px;
+        font-size: 4vw;
+    }
+    .about-title {
+        left: 120px;
+    }
+    .about-description {
+        left: 120px;
+    }
+    .about-text {
+        font-size: 13px;
+    }
+    .about-text-2 {
+        font-size: 10px;
+    }
+    .about-section {
+        height: 420px;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .about-item {
+        margin-right: 20px;
+        font-size: 4vw;
+    }
+    .about-title {
+        left: 5vw;
+    }
+    .about-description {
+        left: 5vw;
+    }
+    .about-text {
+        font-size: 8px;
+    }
+    .about-text-2 {
+        font-size: 9px;
+    }
+    .about-section {
+        height: 420px;
+    }
+    .about-title {
+        font-size: 40px;
+    }
+    .about-item i {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .about-description {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        left: 35vw;
+    }
+    .about-item {
+        margin-right: 20px;
+        font-size: 4vw;
+    }
+    .about-title {
+        left: 33vw;
+    }
+    
+    .about-text {
+        font-size: 10px;
+    }
+    .about-text-2 {
+        font-size: 9px;
+    }
+    .about-section {
+        height: 600px;
+        background-size: 120% 101%;
+    }
+    .about-title {
+        font-size: 35px;
+    }
+    .about-item i {
+        font-size: 32px;
+    }
+}
